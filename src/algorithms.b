@@ -16,3 +16,23 @@ temp0[x+ temp0-]x
 
 # safe copy (append) from x to y
 x[y+ temp0+ x-] temp0[x+ temp0-]
+
+# x = x==y protected y
+temp0[-]
+temp1[-]
+x[temp0+ x-]+
+y[temp0- temp1+ y-]
+temp1[y+ temp1-]
+temp0[x- temp0[-]]
+
+# if (x) {do sth} | x is protected
+temp0[-]
+x[
+  {do sth}
+  temp0
+]x
+
+# if (x) {do sth} | x is erased
+x[
+  {do sth}
+  x-]
