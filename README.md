@@ -1,8 +1,9 @@
 Some fun with 
 # BrainFuck
 
-Enjoy.
-Recomended interpreter: [esoteric.sange.fi/brainfuck](http://esoteric.sange.fi/brainfuck/impl/interp/i.html)
+Enjoy. <br />
+Recomended interpreter: [esoteric.sange.fi/brainfuck](http://esoteric.sange.fi/brainfuck/impl/interp/i.html)<br />
+Interpreter made by me: [github.com/gchilczuk/BFInterpreter](http://github.com/gchilczuk/BFInterpreter)
 
 ## Licence 
 MIT
